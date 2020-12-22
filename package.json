@@ -1,20 +1,29 @@
 {
-  "name": "express-handlebars",
+  "name": "burger",
   "version": "1.0.0",
   "description": "### Overview",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ard847/Node-Express-Handlebars.git"
+    "url": "git+https://github.com/Ard847/burger.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ard847/Node-Express-Handlebars/issues"
+    "url": "https://github.com/Ard847/burger/issues"
   },
-  "homepage": "https://github.com/Ard847/Node-Express-Handlebars#readme"
+  "homepage": "https://github.com/Ard847/burger#readme",
+  "keywords": []
 }
