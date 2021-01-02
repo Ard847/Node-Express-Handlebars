@@ -7,13 +7,12 @@ const ul1 = document.querySelector("#first")
 const div2 = document.querySelector("#devoured")
 const ul2 = document.querySelector("#second") 
 
- if(ul1.innerText == ""){
-    div1.style.display = "none"
+ if(ul1.innerText != ""){
+    div1.style.display = "inline-block"
 }
 
-if(ul2.innerText == ""){
-    div2.style.display = "none"
-    div1.style.marginLeft = "20%"
+if(ul2.innerText != ""){
+    div2.style.display = "inline-block"
 }
 
 

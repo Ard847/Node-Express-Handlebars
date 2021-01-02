@@ -1,8 +1,6 @@
 const burger = require("../models/burger")
 const express = require("express") 
 const server = express.Router()
-
- 
 let burgers
 
 server.get("/",async (req,res) => {
