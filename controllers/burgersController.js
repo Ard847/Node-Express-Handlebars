@@ -16,7 +16,7 @@ server.get("/",async (req,res) => {
 server.post("/", async (req,res) => {
     try{
         await burger(2,{burger_name:req.body.textArea, devoured : 0 })
-       res.redirect("/")
+      // res.redirect("/")
     }
     catch(e){
         console.log(e)
