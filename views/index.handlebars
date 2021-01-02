@@ -1,0 +1,37 @@
+<img src="burger.png" alt="My_Logo">
+<h1>EAT-THE-BURGER</h1>
+<textarea id  = "burger">
+</textarea>
+<button id = "submit">
+    Submit
+</button>
+<p>Enter what you want to eat Click the "Submit" button</p>
+ <div id = "nonDevoured">
+   <h3>Non devoured</h3>
+    <ul id = "first">
+     {{#each burgers}}
+      <li>
+        {{#unless devoured}}
+        <button class = "non" data-id = "{{id}}">
+          Devoure
+          </button>
+          {{burger_name}}
+        {{/unless }}
+      </li>
+     {{/each}}
+   </ul>
+ </div>
+ <div id = "devoured">
+   <h3>Devoured</h3>
+   <ul id = "second">
+     {{#each burgers}}
+      <li>
+        {{#if devoured }}
+          <button class = "dev" data-id = "{{id}}">Delete</button>{{burger_name}}
+        {{/if}}
+      </li>
+     {{/each}}
+   </ul>
+ </div>
+ 
+  

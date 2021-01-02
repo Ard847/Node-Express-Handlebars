@@ -1,20 +1,12 @@
-const mysql = require("mysql");
-const { Sequelize, DataTypes } = require('sequelize');
-const password = process.argv[2];
+const mysql = require('mysql');
+require("dotenv").config()
 
-const connection = new Sequelize(
-    'burger',
-    'root',
-    password,
-    {
-      host: 'localhost',
-      dialect: 'mysql',
-    }
-  );
-
-  connection.authenticate()
-  .then(() => {
-    console.log('Connection has been established successfully.');
-  })
-  
-  module.export = connection
+const connection = mysql.createConnection({
+    host: 'localhost',
+    port: 3306,
+    user: 'root',
+    password: process.env.dbPassword,
+    database: 'burger',
+  });
+ 
+module.exports = connection

@@ -2,29 +2,65 @@ body{
     background-color:#ffc40c;
 }
 img{
-    margin-left:45%;
+    margin-left:42.5%;
     margin-top: 3%;
 }
 h1{
     margin-top:1%;
-    margin-left:40%;
+    margin-left:36.5%;
     color:red;
 }
 
 textarea{
     margin-top:1%;
-    margin-left:41%;
+    margin-left:39%;
     width:250px;
     height:50px;
 }
 button{
     margin-top: 1%;
     display:block;
-    margin-left:46.5%;
+    margin-left:44.5%;
     width:80px;
     background-color: blue;
     color:white;
 }
 p{
-    margin-left:38%;
+    margin-left:35%;
+} 
+ 
+#devoured{
+    position: absolute;
+    width:30%;
+    background-color: grey;
+    display:inline-block;
+    text-align: center;
+    margin-left:62.5%;
+}
+#nonDevoured{
+    position: absolute;
+    width:25%;
+    background-color: grey;
+    display:inline-block;
+    text-align: center;
+    margin-left:12.5%;
+    
+}
+
+li{
+    list-style: none;
+     
+}
+
+button.dev{
+    display:inline-block;
+    margin:0px;
+    background-color: red;
+}
+button.non{
+    display:inline-block;
+    margin:0px 2px 0px 0px;
+}
+span{
+    margin:0px;
 }

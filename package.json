@@ -4,10 +4,14 @@
   "description": "### Overview",
   "main": "server.js",
   "dependencies": {
+    "dotenv": "^8.2.0",
+    "exphbs": "^1.2.0",
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
     "mysql": "^2.18.1",
     "mysql2": "^2.2.5",
+    "nodemon": "^2.0.6",
+    "path": "^0.12.7",
     "sequelize": "^6.3.5"
   },
   "devDependencies": {},
