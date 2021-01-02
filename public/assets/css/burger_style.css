@@ -33,7 +33,7 @@ p{
     position: absolute;
     width:30%;
     background-color: grey;
-    display:none;
+    display:inline-block;
     text-align: center;
     margin-left:62.5%;
 }
@@ -41,7 +41,7 @@ p{
     position: absolute;
     width:25%;
     background-color: grey;
-    display:none;
+    display:inline-block;
     text-align: center;
     margin-left:12.5%;
     
