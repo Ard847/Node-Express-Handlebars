@@ -11,7 +11,7 @@ submit.addEventListener("click", () => {
             "textArea" : burger.value
         }
     }).then(() => {
-        location.reload()
+        //location.reload()
     }).catch((e) => {console.log(e)})
 })
 for(let i = 0; i < toBeDevoured.length; i++){
@@ -24,7 +24,7 @@ for(let i = 0; i < toBeDevoured.length; i++){
                 "devoured" : 1,
             }, 
         }).then(() => {
-            location.reload()
+            //location.reload()
         }).catch((e) => {console.log(e)})
     })
 }
@@ -35,7 +35,7 @@ for(let i = 0; i < toBeDeleted.length; i++){
             method:"delete",
             url:"/" + toBeDeleted[i].dataset.id,
         }).then(() => {
-            location.reload()
+            //location.reload()
         }).catch((e) => {console.log(e)})
     })
 
