@@ -2,20 +2,6 @@ const submit = document.querySelector("#submit")
 const burger = document.querySelector("#burger")
 const toBeDevoured = document.querySelectorAll(".non")
 const toBeDeleted = document.querySelectorAll(".dev")
-const div1 = document.querySelector("#nonDevoured")
-const ul1 = document.querySelector("#first")
-const div2 = document.querySelector("#devoured")
-const ul2 = document.querySelector("#second") 
-
- if(ul1.innerText == ""){
-    div1.style.display = "none"
-}
-
-if(ul2.innerText == ""){
-    div2.style.display = "none"
-    div1.style.marginLeft = "20%"
-}
-
 
 submit.addEventListener("click", () => {
     $.ajax({
