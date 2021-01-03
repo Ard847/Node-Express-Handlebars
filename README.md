@@ -1,7 +1,7 @@
 # Node Express Handlebars
 
 # Application
-You can view the app working in this link https://drive.google.com/file/d/1WRdimeuIzIj0Rkg15spxTaJJCDEGvXoh/view
+You can view the app working in this link https://drive.google.com/file/d/1WRdimeuIzIj0Rkg15spxTaJJCDEGvXoh/view or you can use it here https://renatoburgerhomework.herokuapp.com/
 
 ### Overview
 
